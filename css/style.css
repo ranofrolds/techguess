@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+}
+
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.neonTextGreen button{
+    color: #02e233;
+    text-shadow:
+        0 0 7px #02e233,
+        0 0 10px #02e233,
+        0 0 21px #02e233;
+  }
+
+.neonTextWhite button{
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff;
+
+}
+
+.neonTextWhite button:hover,
+.neonTextGreen button:hover {
+    background-color: rgb(3, 80, 20);
+    box-shadow: 0 0 1.25rem #02e233,
+    0 0 1.5rem #02e233,
+    0 0 2rem #02e233;
+}

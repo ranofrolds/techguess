@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modal_tutorial.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="options">
+        <div class="logo">
+          <img src="./images/logo.png" alt="logo" class="logoimg">
+        </div>
+        <div class="newgame neonTextGreen">
+          <button id='newgame'>Criar sala</button>
+        </div>
+
+        <div class="loadgame neonTextGreen">
+          <button id='loadgame'>Entrar em uma sala</button>
+        </div>
+
+        <div class="keywords neonTextWhite">
+          <a href="./views/keywords.html"><button>Palavras-chave</button></a>
+        </div>
+
+        <div class="tutorial neonTextWhite">
+          <button id="openModalBtn">Como Jogar</button>
+        </div>
+      </div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+          
+      </div>
+    </div>
+
+    <script src="./linkers/index.js"></script>
+  </body>
+</html>

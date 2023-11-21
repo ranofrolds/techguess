@@ -1,0 +1,85 @@
+
+.bg{
+    height: 100vh;
+    background-image: url('../images/bg_circuit.png');
+    background-size: 100% 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    margin-top: 80px;
+    padding-bottom: 20px;
+    
+}
+
+.logo img{
+    height: 65px;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chips{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.neonTextGreen button{
+    color: #02e233;
+    text-shadow:
+        0 0 7px #02e233,
+        0 0 10px #02e233,
+        0 0 21px #02e233;
+  }
+
+.neonTextWhite button{
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff;
+
+}
+
+.neonTextWhite button:hover,
+.neonTextGreen button:hover {
+    background-color: rgb(3, 80, 20);
+    box-shadow: 0 0 1.25rem #02e233,
+    0 0 1.5rem #02e233,
+    0 0 2rem #02e233;
+}
+
+.options button{
+    background-color: black;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    width: 400px;
+    outline: none;
+    border: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233,
+    0 0 1rem #02e233;
+
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+    border-radius: 5px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+
+.options > div{
+    margin-bottom: 25px;
+}
+
+a:link {
+    text-decoration: none;
+}
