@@ -28,21 +28,23 @@
                 </div>
                 <div class="buttons">
                     <div class="n1-buttons">
-                        <button id="n1">Nível 1</button>
+                        <button id="n1" onclick="listarPalavrasChave(this.id)">Nível 1</button>
                         <button id="state"></button>
                     </div>
                     <div class="n2-buttons">
-                        <button id="n2">Nível 2</button>
+                        <button id="n2" onclick="listarPalavrasChave(this.id)">Nível 2</button>
                         <button id="state"></button>
                     </div>
                     <div class="n3-buttons">
-                        <button id="n3">Nível 3</button>
+                        <button id="n3" onclick="listarPalavrasChave(this.id)">Nível 3</button>
                         <button id="state"></button>
                     </div>
                     
                 </div>
                 <div class="log-panel">
-                    <textarea id="textarea" readonly></textarea>
+                    <div id="keywords-area">
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,6 +60,7 @@
         </div>
     </div>
     
-    <script src="scripts/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../scripts/keywords.js"></script>
 </body>
 </html>

@@ -189,7 +189,7 @@ body{
     align-items: center;
     height: 400px;
     width: 400px;
-    
+    margin-top:20px ;
     margin-bottom: 50px;
     border-radius: 15px;
     box-shadow: 2px 2px #4F5946, 
@@ -203,11 +203,11 @@ body{
 
 
 .query-results{
-    color:#45e714;
+    color: #45e714;
     font-family: 'Roboto Mono', sans-serif;
-    margin-top: 25px;
-    width: 90%;
-    height: 65%;
+    margin-top: 48px;
+    width: 80%;
+    height: 68%;
     background-color: rgb(20, 20, 20);
     border: solid 2px rgb(197, 197, 197);
     border-radius: 10px;
@@ -411,7 +411,7 @@ textarea::-webkit-scrollbar {
     outline: none;
     border: none;
     border-radius: 100%;
-    background-color: greenyellow;
+    background-color: red;
     border: ridge 3px rgb(199, 199, 199);
 
 }

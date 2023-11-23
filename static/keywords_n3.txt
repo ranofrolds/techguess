@@ -1,0 +1,25 @@
+1|Cache|Memória de acesso rápido para armazenamento temporário.|
+2|Phishing|Técnica de fraude online para obtenção de dados.|
+3|Framework|Estrutura de desenvolvimento para facilitar a criação de software.|
+4|Script|Sequência de comandos automatizados.|
+5|API|Interface de Programação de Aplicações.|
+6|Machine Learning|Subcampo de IA que permite aos computadores aprenderem.|
+7|Blockchain|Registro descentralizado e imutável de transações.|
+8|Quantum Computing|Computação baseada nos princípios da mecânica quântica.|
+9|Neural Network|Rede neural, modelo computacional inspirado no cérebro humano.|
+10|DevOps|Cultura que une desenvolvimento e operações de TI.|
+11|Big Data|Manuseio de grandes volumes de dados.|
+12|Scrum|Metodologia ágil de gestão de projetos.|
+13|Cybersecurity|Segurança da informação na era digital.|
+14|Deep Learning|Subcampo de Machine Learning baseado em redes neurais profundas.|
+15|Firmware|Software incorporado em dispositivos de hardware.|
+16|Natural Language Processing|Processamento de linguagem natural por computadores.|
+17|Assembly|Linguagem de baixo nível próxima à linguagem de máquina.|
+18|Java|Linguagem de programação orientada a objetos.|
+19|C|Linguagem de programação de baixo nível.|
+20|Python|Linguagem de programação de alto nível.|
+21|Sistemas Distribuídos|Sistemas que operam em diferentes computadores.|
+22|Compilador|Programa que traduz código fonte para código de máquina.|
+23|Internet of Things|Interconexão de dispositivos físicos via internet.|
+24|Overclock|Aumento da velocidade de um componente para melhor desempenho.|
+25|Sistema Operacional|Software que gerencia hardware e outros programas.|

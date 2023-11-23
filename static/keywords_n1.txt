@@ -1,0 +1,30 @@
+1|Computador|Dispositivo eletrônico para processamento de dados.|
+2|Internet|Rede global de computadores interconectados.|
+3|Senha|Combinação de caracteres para acesso seguro.|
+4|Email|Mensagem eletrônica transmitida pela internet.|
+5|Vírus|Programa malicioso que pode danificar o computador.|
+6|Nuvem|Armazenamento de dados online.|
+7|Wi-Fi|Tecnologia sem fio para conexão à internet.|
+8|Download|Transferência de dados da internet para o computador.|
+9|Upload|Transferência de dados do computador para a internet.|
+10|Browser|Navegador, programa para acessar páginas web.|
+11|Hardware|Componentes físicos do computador.|
+12|Software|Programas e aplicativos para o computador.|
+13|Mouse|Dispositivo de entrada para controle do cursor.|
+14|Teclado|Dispositivo de entrada com teclas alfabéticas.|
+15|Backup|Cópia de segurança de dados importantes.|
+16|Bluetooth|Tecnologia sem fio para comunicação entre dispositivos.|
+17|Webcam|Câmera de vídeo para transmissão online.|
+18|Link|Atalho para acessar uma página na internet.|
+19|CPU|Unidade Central de Processamento, o cérebro do computador.|
+20|Modem|Dispositivo para conexão à internet.|
+21|Hacker|Pessoa que busca explorar falhas de segurança.|
+22|Microsoft|Empresa de tecnologia, criadora do Windows.|
+23|Google|Empresa de tecnologia, criadora do mecanismo de busca.|
+24|Tablet|Dispositivo portátil com tela sensível ao toque.|
+25|Celular|Telefone móvel.|
+26|Instagram|Rede social de compartilhamento de fotos.|
+27|Facebook|Rede social para conectar pessoas.|
+28|Twitter|Plataforma de microblogs para compartilhar notícias.|
+29|Youtube|Plataforma para compartilhar vídeos online.|
+30|GPS|Tecnologia de navegação por satélite que permite determinar a localização geográfica de um receptor em qualquer lugar do planeta.|

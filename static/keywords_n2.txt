@@ -1,0 +1,30 @@
+1|Algoritmo|Conjunto de regras para resolução de problemas.|
+2|Rede Social|Plataforma online para interação entre usuários.|
+3|Criptografia|Técnica de codificação para proteger informações.|
+4|HTML|Linguagem de marcação para construção de páginas web.|
+5|VPN|Rede privada virtual para conexão segura.|
+6|Linux|Sistema operacional de código aberto.|
+7|Malware|Software malicioso, incluindo vírus e spyware.|
+8|Open Source|Software de código aberto.|
+9|Latência|Atraso na transmissão de dados em redes.|
+10|Cookies|Pequenos arquivos armazenados no navegador.|
+11|Inteligência Artificial|Simulação de processos inteligentes por máquinas.|
+12|Discord|Plataforma de comunicação para gamers e comunidades.|
+13|GitHub|Plataforma de hospedagem de código-fonte.|
+14|IP|Endereço de Protocolo de Internet.|
+15|Pixel|Menor ponto em uma imagem digital.|
+16|Placa de Vídeo|Componente que processa dados gráficos.|
+17|Memória|Armazenamento temporário de dados.|
+18|Processador|Unidade de processamento central do computador.|
+19|Cooler|Dispositivo para resfriamento de hardware.|
+20|USB|Conexão universal para dispositivos eletrônicos.|
+21|FPS|Frames por segundo em jogos e vídeos.|
+22|Bug|Erro ou falha em um programa.|
+23|Torrent|Protocolo para compartilhamento de arquivos.|
+24|Realidade Virtual|Ambiente simulado por computador.|
+25|Intel|Empresa fabricante de processadores.|
+26|Nvidia|Empresa fabricante de placas de vídeo.|
+27|AMD|Empresa fabricante de processadores e placas de vídeo.|
+28|ChatGPT|Modelo de linguagem desenvolvido pela OpenAI.|
+29|NFT|Token não fungível, usado em blockchain para representar ativos digitais únicos.|
+30|Bitcoin|Moeda digital descentralizada.|
