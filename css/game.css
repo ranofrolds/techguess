@@ -1,0 +1,59 @@
+#player1{
+    position: absolute;
+    top: 30%;
+    right: 85%;
+}
+
+#player2{
+    position: absolute;
+    top: 30%;
+    left: 85%;
+}
+
+.player-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.player-image h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-shadow:
+    0 0 7px #02e233,
+    0 0 10px #02e233,
+    0 0 10px #02e233;
+    margin-bottom: 5px;
+}
+
+.player{
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    outline: none;
+    border: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233,
+    0 0 1rem #02e233;
+    border-radius: 5px;
+}
+
+
+
+
+#chat{
+    position: absolute;
+    bottom: 4%;
+    right: 42%;
+    background-color: black;
+    width: 525px;
+    height: 250px;
+    outline: none;
+    border: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233,
+    0 0 1rem #02e233;
+    border-radius: 5px;
+}
