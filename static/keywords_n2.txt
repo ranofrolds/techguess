@@ -1,30 +1,30 @@
-1|Algoritmo|Conjunto de regras para resolução de problemas.|
-2|Rede Social|Plataforma online para interação entre usuários.|
-3|Criptografia|Técnica de codificação para proteger informações.|
-4|HTML|Linguagem de marcação para construção de páginas web.|
-5|VPN|Rede privada virtual para conexão segura.|
-6|Linux|Sistema operacional de código aberto.|
-7|Malware|Software malicioso, incluindo vírus e spyware.|
-8|Open Source|Software de código aberto.|
-9|Latência|Atraso na transmissão de dados em redes.|
-10|Cookies|Pequenos arquivos armazenados no navegador.|
-11|Inteligência Artificial|Simulação de processos inteligentes por máquinas.|
-12|Discord|Plataforma de comunicação para gamers e comunidades.|
-13|GitHub|Plataforma de hospedagem de código-fonte.|
-14|IP|Endereço de Protocolo de Internet.|
-15|Pixel|Menor ponto em uma imagem digital.|
-16|Placa de Vídeo|Componente que processa dados gráficos.|
-17|Memória|Armazenamento temporário de dados.|
-18|Processador|Unidade de processamento central do computador.|
-19|Cooler|Dispositivo para resfriamento de hardware.|
-20|USB|Conexão universal para dispositivos eletrônicos.|
-21|FPS|Frames por segundo em jogos e vídeos.|
-22|Bug|Erro ou falha em um programa.|
-23|Torrent|Protocolo para compartilhamento de arquivos.|
-24|Realidade Virtual|Ambiente simulado por computador.|
-25|Intel|Empresa fabricante de processadores.|
-26|Nvidia|Empresa fabricante de placas de vídeo.|
-27|AMD|Empresa fabricante de processadores e placas de vídeo.|
-28|ChatGPT|Modelo de linguagem desenvolvido pela OpenAI.|
-29|NFT|Token não fungível, usado em blockchain para representar ativos digitais únicos.|
-30|Bitcoin|Moeda digital descentralizada.|
+1|Algoritmo|Algorithm|Um conjunto de regras e instruções que define uma sequência lógica para a resolução eficiente de um problema ou realização de uma tarefa específica.|
+2|Rede Social|Social Network|Uma plataforma online que facilita a interação, compartilhamento de conteúdo e conexão entre usuários, muitas vezes centrada em interesses comuns.|
+3|Criptografia|Cryptography|A arte e ciência de codificar informações para proteger sua confidencialidade, garantindo que apenas destinatários autorizados possam decifrar e compreender os dados.|
+4|HTML|Hypertext Markup Language|Linguagem de Marcação de Hipertexto, utilizada para criar e estruturar conteúdo em páginas web, definindo elementos e sua apresentação na internet.|
+5|VPN|Virtual Private Network|Rede Privada Virtual, uma tecnologia que estabelece uma conexão segura sobre a internet, permitindo a transmissão de dados de forma criptografada e protegida.|
+6|Linux|Linux|Um sistema operacional de código aberto baseado no kernel Linux, conhecido pela estabilidade, segurança e flexibilidade.|
+7|Malware|Malware|Um termo abrangente para software malicioso, incluindo vírus, spyware, trojans e outras formas de programas destinados a danificar ou explorar sistemas.|
+8|Open Source|Open Source|Refere-se a software cujo código-fonte é disponibilizado publicamente, permitindo que qualquer pessoa o visualize, modifique e redistribua.|
+9|Latência|Latency|O tempo de atraso na transmissão de dados em uma rede, influenciado por vários fatores, como a velocidade de conexão e a distância física.|
+10|Cookies|Cookies|Pequenos arquivos armazenados no navegador do usuário, contendo informações sobre suas interações online, usados para personalização e rastreamento.|
+11|Inteligência Artificial|Artificial Intelligence|A simulação de processos inteligentes por máquinas, envolvendo a capacidade de aprender, raciocinar e resolver problemas de maneira autônoma.|
+12|Discord|Discord|Uma plataforma de comunicação online, especialmente popular entre gamers e comunidades, oferecendo chat de voz, mensagens e interação social.|
+13|GitHub|GitHub|Uma plataforma de hospedagem de código-fonte que permite o controle de versões e colaboração em projetos de desenvolvimento de software.|
+14|IP|Internet Protocol Address|Sigla para Endereço de Protocolo de Internet, um identificador único atribuído a cada dispositivo conectado a uma rede IP.|
+15|Pixel|Pixel|O menor ponto em uma imagem digital, representando a menor unidade visual em uma tela ou fotografia.|
+16|Placa de Vídeo|Graphics Card|Um componente do computador responsável pelo processamento de dados gráficos, essencial para jogos e aplicações visuais intensivas.|
+17|Memória|Memory|O espaço de armazenamento temporário usado pelo computador para processar dados rapidamente, incluindo RAM e cache.|
+18|Processador|Processor|A Unidade de Processamento Central (CPU) do computador, responsável por executar instruções e realizar operações lógicas e aritméticas.|
+19|Cooler|Cooler|Um dispositivo utilizado para resfriar hardware, especialmente o processador, dissipando o calor gerado durante o funcionamento.|
+20|USB|Universal Serial Bus|Conexão padrão usada para conectar dispositivos eletrônicos ao computador, facilitando a transferência de dados e energia.|
+21|FPS|Frames per Second|Frames por segundo, uma medida que indica a quantidade de imagens exibidas por segundo em jogos e vídeos, influenciando a fluidez da experiência visual.|
+22|Bug|Bug|Um erro ou falha em um programa de software que pode causar comportamento inesperado ou problemas no funcionamento.|
+23|Torrent|Torrent|Um protocolo para compartilhamento de arquivos que permite a distribuição eficiente de dados pela internet, comumente usado para transferência de grandes arquivos.|
+24|Realidade Virtual|Virtual Reality|Um ambiente simulado por computador que proporciona uma experiência imersiva ao usuário, muitas vezes usando dispositivos como óculos de realidade virtual.|
+25|Intel|Intel|Empresa líder na fabricação de processadores para computadores pessoais e servidores.|
+26|Nvidia|Nvidia|Empresa conhecida por produzir placas de vídeo de alta performance, amplamente utilizadas em jogos e aplicações gráficas.|
+27|AMD|AMD|Empresa que fabrica processadores e placas de vídeo, concorrendo no mercado com a Intel e Nvidia.|
+28|ChatGPT|ChatGPT|Um modelo de linguagem desenvolvido pela OpenAI, capaz de gerar texto coerente e contextual em resposta a estímulos dados.|
+29|NFT|Non-Fungible Token|Token Não Fungível, uma representação única e indivisível de um ativo digital, geralmente registrado em blockchain, como arte digital ou colecionáveis online.|
+30|Bitcoin|Bitcoin|Uma moeda digital descentralizada que utiliza tecnologia de blockchain para realizar transações seguras e transparentes, sem a necessidade de uma autoridade central.|

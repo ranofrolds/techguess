@@ -1,25 +1,25 @@
-1|Cache|Memória de acesso rápido para armazenamento temporário.|
-2|Phishing|Técnica de fraude online para obtenção de dados.|
-3|Framework|Estrutura de desenvolvimento para facilitar a criação de software.|
-4|Script|Sequência de comandos automatizados.|
-5|API|Interface de Programação de Aplicações.|
-6|Machine Learning|Subcampo de IA que permite aos computadores aprenderem.|
-7|Blockchain|Registro descentralizado e imutável de transações.|
-8|Quantum Computing|Computação baseada nos princípios da mecânica quântica.|
-9|Neural Network|Rede neural, modelo computacional inspirado no cérebro humano.|
-10|DevOps|Cultura que une desenvolvimento e operações de TI.|
-11|Big Data|Manuseio de grandes volumes de dados.|
-12|Scrum|Metodologia ágil de gestão de projetos.|
-13|Cybersecurity|Segurança da informação na era digital.|
-14|Deep Learning|Subcampo de Machine Learning baseado em redes neurais profundas.|
-15|Firmware|Software incorporado em dispositivos de hardware.|
-16|Natural Language Processing|Processamento de linguagem natural por computadores.|
-17|Assembly|Linguagem de baixo nível próxima à linguagem de máquina.|
-18|Java|Linguagem de programação orientada a objetos.|
-19|C|Linguagem de programação de baixo nível.|
-20|Python|Linguagem de programação de alto nível.|
-21|Sistemas Distribuídos|Sistemas que operam em diferentes computadores.|
-22|Compilador|Programa que traduz código fonte para código de máquina.|
-23|Internet of Things|Interconexão de dispositivos físicos via internet.|
-24|Overclock|Aumento da velocidade de um componente para melhor desempenho.|
-25|Sistema Operacional|Software que gerencia hardware e outros programas.|
+1|Cache|Cache|Memória de acesso rápido que armazena dados frequentemente usados para melhorar a velocidade de acesso.|
+2|Phishing|Phishing|Técnica de fraude online que visa enganar usuários para obter informações confidenciais, como senhas e dados bancários.|
+3|Framework|Framework|Estrutura de desenvolvimento que fornece funcionalidades e diretrizes para facilitar a criação eficiente de software.|
+4|Script|Script|Uma sequência de comandos ou instruções automatizadas usadas para realizar tarefas específicas em um sistema ou aplicativo.|
+5|Grafo|Graph|*****|
+6|Machine Learning|Machine Learning|Subcampo da Inteligência Artificial que capacita os computadores a aprenderem padrões e tomar decisões sem programação explícita.|
+7|Blockchain|Blockchain|Um registro descentralizado e imutável de transações, utilizado em criptomoedas e outras aplicações para garantir segurança e transparência.|
+8|Computação Quântica|Quantum Computing|Abordagem computacional baseada nos princípios da mecânica quântica, explorando estados múltiplos simultaneamente.|
+9|Rede Neural|Neural Network|Modelo computacional inspirado na estrutura do cérebro humano, utilizado em Machine Learning para reconhecimento de padrões.|
+10|DevOps|DevOps|Cultura e práticas que integram desenvolvimento e operações de TI, visando melhorias na eficiência e colaboração.|
+11|Big Data|Big Data|O manuseio e análise de conjuntos massivos de dados, frequentemente usando ferramentas específicas para extrair insights.|
+12|Scrum|Scrum|Metodologia ágil de gestão de projetos que enfatiza flexibilidade, colaboração e entrega incremental.|
+13|Cibersegurança|Cybersecurity|Práticas e tecnologias para proteger sistemas e dados contra ameaças digitais.|
+14|Deep Learning|Deep Learning|Subcampo de Machine Learning que utiliza redes neurais profundas para analisar e aprender padrões complexos.|
+15|Firmware|Firmware|Software incorporado em dispositivos de hardware para controlar seu funcionamento, muitas vezes imutável.|
+16|Processamento de Linguagem Natural|Natural Language Processing|Capacidade computacional de entender e gerar linguagem humana de maneira contextual e significativa.|
+17|Assembly|Assembly Language|Linguagem de baixo nível próxima à linguagem de máquina, compreensível pelos processadores.|
+18|Java|Java|Linguagem de programação orientada a objetos, conhecida pela portabilidade e ampla aplicação em desenvolvimento.|
+19|C|C|Linguagem de programação de baixo nível, oferecendo controle preciso sobre o hardware do computador.|
+20|Python|Python|Linguagem de programação de alto nível, conhecida por sua simplicidade e legibilidade.|
+21|Sistemas Distribuídos|Distributed Systems|Sistemas que operam em diferentes computadores, colaborando para realizar uma tarefa específica.|
+22|Compilador|Compiler|Programa que traduz código fonte escrito em uma linguagem de programação para código de máquina executável.|
+23|Internet das Coisas|Internet of Things|Interconexão de dispositivos físicos via internet, permitindo a troca de dados e controle remoto.|
+24|Overclock|Overclock|Aumento da velocidade de um componente, como CPU ou GPU, para melhorar o desempenho além das especificações originais.|
+25|Sistema Operacional|Operating System|Software que gerencia recursos de hardware e permite a execução de outros programas no computador.|

@@ -293,7 +293,16 @@ body{
     border: solid 2px rgb(197, 197, 197);
     border-radius: 10px;
     padding: 8px 10px;
-    overflow: hidden;
+    overflow: auto;
+}
+
+.log-panel::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+}
+
+.log-panel::-webkit-scrollbar-thumb {
+    background-color: #45e714; /* Cor do indicador da barra de rolagem (verde) */
+    border-radius: 2px;
 }
 
 .log-panel textarea{
@@ -405,7 +414,7 @@ textarea::-webkit-scrollbar {
     justify-content: center;
 }
 
-#state{
+#n1-state, #n2-state, #n3-state{
     margin-top: 25px;
     padding: 10px;
     outline: none;
@@ -415,3 +424,8 @@ textarea::-webkit-scrollbar {
     border: ridge 3px rgb(199, 199, 199);
 
 }
+
+.word{
+    cursor: pointer;
+}
+

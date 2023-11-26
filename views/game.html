@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Tech-Guess</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="bg">
+        <div id="player1">
+            <div id="player1-image"><h1>Jogador 1</h1> <img src="" alt=""></div>
+            <div id="baloon-player1"></div>
+            
+        </div>
+        <div id="player2">
+            <div id="player2-image"><h1>Jogador 2</h1> <img src="" alt=""></div>
+            <div id="baloon-player2"></div>
+        </div>
+
+        <div id="scoreboard">
+            <div id="cable1"></div>
+            <div id="timer"></div>
+            <div id="cable2"></div>
+            <div id="memory"></div>
+        </div>
+
+        <div id="chat-card">
+            <div id="chat">
+                <div id="chat-history"></div>
+                <div id="text-send">
+                    <!-- <div id="input"></div> input -->
+                    <!-- <div id="send"></div> button -->
+                </div>
+            </div>
+
+            <div id="card">
+                <div id="toggle-visibility"></div>
+                <div id="keywords">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/game.js"></script>
+  </body>
+</html>

@@ -11,7 +11,7 @@ function createWindow () {
     frame:true,
     icon: __dirname + '/images/icon/chips.png',
   })
-   mainWindow.setMenuBarVisibility(true)
+   mainWindow.setMenuBarVisibility(false)
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 

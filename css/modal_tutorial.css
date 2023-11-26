@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 .modal {
     display: flex;
     align-items: center;
@@ -24,10 +25,16 @@ body {
 }
 
 .modal-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    outline: none;
+    border: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233,
+    0 0 1rem #02e233;
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+    border-radius: 10px;
     transform: scale(0.8);
     transition: transform 0.3s ease-in-out;
 }
@@ -36,10 +43,48 @@ body {
     transform: scale(1);
 }
 
-.close {
+#closeModalBtn {
     position: absolute;
+    cursor: pointer;
     top: 10px;
     right: 10px;
     font-size: 20px;
-    cursor: pointer;
+    width: 30px;
+    color: #02e233;
+    background-color: black;
+    outline: none;
+    border: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233,
+    0 0 1rem #02e233;
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+#closeModalBtn:hover{
+    background-color: rgb(3, 80, 20);
+    box-shadow: 0 0 1.25rem #02e233,
+    0 0 1.5rem #02e233,
+    0 0 2rem #02e233;
+}
+
+.log-panel{
+    color:#45e714;
+    font-family: 'Roboto Mono', sans-serif;
+    margin-top: 50px;
+    margin-left: 12px;
+    width: 90%;
+    height: 80%;
+    background-color: black;
+    border: none;
+    padding: 8px 10px;
+    overflow: auto;
+}
+
+.log-panel::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+}
+
+.log-panel::-webkit-scrollbar-thumb {
+    background-color: #02e233; /* Cor do indicador da barra de rolagem (verde) */
+    border-radius: 2px;
 }
