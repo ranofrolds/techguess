@@ -8,6 +8,7 @@
     <title>Tech-Guess</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/game.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -26,24 +27,33 @@
         </div>
 
         <div id="scoreboard">
-            <div id="cable1"></div>
-            <div id="timer"></div>
-            <div id="cable2"></div>
-            <div id="memory"></div>
+            <div class="fio1">
+                <img src="../images/fios_game_1.png" alt="fios" class="fiosimg">
+              </div>
+            <div id="timer">
+                <div class="panel"></div>
+            </div>
+            <div class="fio2">
+                <img src="../images/fios_game_2.png" alt="fios" class="fiosimg">
+              </div>
+            <div id="memory">
+                <div class="panel"></div>
+            </div>
         </div>
 
         <div id="chat-card">
             <div id="chat">
                 <div id="chat-history"></div>
                 <div id="text-send">
-                    <!-- <div id="input"></div> input -->
-                    <!-- <div id="send"></div> button -->
+                    <button id="input-message"><input type="text" id="" placeholder="Digite uma palavra-chave..."></button>
+                    <button id="send-button"> Enviar </button>
                 </div>
             </div>
+            
 
             <div id="card">
-                <div id="toggle-visibility"></div>
-                <div id="keywords">
+                <div id="toggle-visibility"><i class="fa fa-eye" aria-hidden="true"></i></div>
+                <div id="keywords-area">
 
                 </div>
             </div>
