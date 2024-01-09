@@ -1,0 +1,34 @@
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretório de dependências do Node.js
+node_modules/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos de configuração locais
+.env
+
+# Cache e arquivos temporários do editor
+.vscode/
+.idea/
+
+# Arquivos de build e distribuição
+/dist/
+/build/
+
+# Arquivos específicos do Electron
+electron-out/
+
+# Arquivos gerados durante o desenvolvimento
+.cache/
+.idea/
+*.code-workspace
+
+# Dependências locais do npm
+npm-debug.log
