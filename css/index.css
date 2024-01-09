@@ -60,8 +60,7 @@
 .options button{
     background-color: black;
     font-size: 28px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: lighter;
+    font-family: 'Roboto Mono', monospace;
     width: 400px;
     outline: none;
     border: 0.2rem solid #02e233;
@@ -82,4 +81,21 @@
 
 a:link {
     text-decoration: none;
+}
+
+h1, h2, p, li, ul{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    text-align: justify;
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+#colorGreen{
+    color: #02e233;
 }

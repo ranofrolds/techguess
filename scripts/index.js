@@ -12,8 +12,3 @@ window.addEventListener('click', function(event) {
         modal.classList.remove('active');
     }
 });
-
-
-document.getElementById('newgame').addEventListener('click', function() {
-    window.location.href="./views/game.html"
-});

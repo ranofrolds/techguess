@@ -8,9 +8,13 @@
     <title>Tech-Guess</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/modal_tutorial.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/modals.css">
+    <link rel="stylesheet" href="./css/waiting_room.css">
+    <link rel="stylesheet" href="./css/join_room.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;600&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
@@ -20,11 +24,11 @@
           <img src="./images/logo.png" alt="logo" class="logoimg">
         </div>
         <div class="newgame neonTextGreen">
-          <button id='newgame'>Criar sala</button>
+          <button id='openModalCreateBtn'>Criar sala</button>
         </div>
 
         <div class="loadgame neonTextGreen">
-          <button id='loadgame'>Entrar em uma sala</button>
+          <button id='openModalJoinBtn'>Entrar em uma sala</button>
         </div>
 
         <div class="keywords neonTextWhite">
@@ -41,25 +45,71 @@
       <div class="modal-content">
           <button id="closeModalBtn"> X </button>
           <div class="log-panel">
-            <h1>Como jogar Tech-Guess?</h1>
-            <p>tech gues é um jogotech gues é um jogotech gues é um jogotech gues é um jogotech gues é um jogotech gues é um jogotech gues é um jogotech gues é um jogotech gues é um jogo</p>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
-            <h1>Teste</h1>
+            <h2>1- O que é o Tech-Guess?</h2><br>
+            <p>Tech-Guess leva como inspiração o programa televisivo “Mega Senha”, que consiste na adivinhação de palavras para acumular pontuações.</p>
+            <br>
+            <h2>2. Mecânica do Jogo</h2><br>
+            <p>Envolve dois jogadores, sendo que em cada rodada, um será o adivinhador, enquanto o outro fornecerá dicas para as palavras a serem adivinhadas. As dicas devem consistir em apenas uma palavra por vez, o que significa que, após cada dica, o adivinhador deve responder com uma única palavra antes que uma nova dica possa ser apresentada.</p>
+            <br>
+            <h2>3. Objetivo</h2><br>
+            <p>O objetivo é acumular pontos ao longo das rodadas. Neste jogo, os pontos são representados de forma metafórica como "memória computacional", começando em 0 bytes e chegando até 1 terabyte.</p>
+            <br>
+            <h2>4. Níveis de dificuldade</h2><br>
+            <p>Os níveis foram separados com base no possível conhecimento do usuário, sendo o nível 1 para leigos na área, nível 2 aos interessados em tecnologia e o nível 3 possui uma dificuldade referente aos estudiosos do âmbito tecnológico.</p>
+            <br>
+            <h2>5. Balanceamento do jogo</h2><br>
+            <ul><br>
+              <li><strong>Primeira Rodada</strong> = { <span id="colorGreen">Pontuação</span>: 500 MB; <span id="colorGreen">Nível</span>: 1; <span id="colorGreen">Nº de palavras a serem adivinhadas</span>: 3; <span id="colorGreen">Tempo</span>: 45 s}</li><br>
+              <li><strong>Segunda Rodada</strong> = { <span id="colorGreen">Pontuação</span>: 1 GB; <span id="colorGreen">Nível</span>: 1; <span id="colorGreen">Nº de palavras a serem adivinhadas</span>: 5; <span id="colorGreen">Tempo</span>: 1 min}</li><br>
+              <li><strong>Terceira Rodada</strong> = { <span id="colorGreen">Pontuação</span>: 10 GB; <span id="colorGreen">Nível</span>: 2; <span id="colorGreen">Nº de palavras a serem adivinhadas</span>: 3; <span id="colorGreen">Tempo</span>: 45 s}</li><br>
+              <li><strong>Quarta Rodada</strong> = { <span id="colorGreen">Pontuação</span>: 100 GB; <span id="colorGreen">Nível</span>: 2; <span id="colorGreen">Nº de palavras a serem adivinhadas</span>: 5; <span id="colorGreen">Tempo</span>: 1 min}</li><br>
+              <li><strong>Quinta Rodada</strong> = { <span id="colorGreen">Pontuação</span>: 500 GB; <span id="colorGreen">Nível</span>: 3; <span id="colorGreen">Nº de palavras a serem adivinhadas</span>: 3; <span id="colorGreen">Tempo</span>: 45 s}</li><br>
+              <li><strong>Sexta Rodada</strong> = { <span id="colorGreen">Pontuação</span>: 1 TB; <span id="colorGreen">Nível</span>: 3; <span id="colorGreen">Nº de palavras a serem adivinhadas</span>: 5; <span id="colorGreen">Tempo</span>: 1 min}</li><br>              
+            </ul>
         </div>
       </div>
-    </div>
+      </div>
+      <div id="modalCreate" class="modal">
+        <div class="modal-content">
+          <div id="user-info">
+            <div id="profile-picture"><img src="images/profile-pictures/zyro-image (1).png" alt=""></div>
+            <button id="change-picture"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+            <div id="insert-name"><input type="text"></div>
+            <button id="save-info">Salvar</button>
+          </div>
+          
+          <div id="room-info">
+            <div id="access-code"><span id="codeSala">Código de acesso da sala:<strong id="code"></strong></span></div>
+            <div id="players-logged">
+              <div id="player1">
+                <div id="player1-picture"><img src="images/profile-pictures/zyro-image (1).png" alt=""></div>
+                <div id="player1-name"></div>
+              </div>
+              <div id="waiting-player"><span>Esperando outro jogador...</span></div>
+            </div>
+          </div>
+          
+          <div id="action-buttons"><button id="create-room">Começar a partida</button> <button id="leave">Sair</button></div>
+        </div>
+      </div>
 
+      <div id="modalJoin" class="modal">
+        <div class="join-modal modal-content">
+          <div id="user-info">
+            <div id="profile-picture"><img src="images/profile-pictures/zyro-image (1).png" alt=""></div>
+            <button id="change-picture"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+            <div id="insert-name"><input type="text"></div>
+            <button id="save-info">Salvar</button>
+          </div>
+          
+          <div id="enter-code"><h1>Digite o código de acesso:</h1> <div id="input-code"><input type="text"></div></div>
+          
+          <div id="action-buttons"><button id="join-room">Entrar</button> <button id="leave-join-room">Sair</button></div>
+        </div>
+      </div>
+
+    <script src="./scripts/modal_join_game.js"></script>
+    <script src="./scripts/modal_create_game.js"></script>
     <script src="./scripts/index.js"></script>
   </body>
 </html>

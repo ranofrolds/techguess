@@ -21,8 +21,12 @@
 }
 
 .modal-content {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
     width: 500px;
-    height: 500px;
+    height: 525px;
     background-color: black;
     outline: none;
     border: 0.2rem solid #02e233;
@@ -37,4 +41,202 @@
 
 .modal.active .modal-content {
     transform: scale(1);
+}
+
+#user-info{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+#profile-picture{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    outline: none;
+    border: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233,
+    0 0 .6rem #02e233;
+    border-radius: 10px;
+}
+
+#profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Isso garante que a imagem cubra completamente a div, mantendo sua proporção */
+}
+
+#change-picture{
+    position: fixed;
+    left: 53.8%;
+    top: 22%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    outline: none;
+    border: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233,
+    0 0 .6rem #02e233;
+    border-radius: 30px;
+    color:#02e233;
+    cursor: pointer;
+}
+
+#insert-name{
+    margin-top: 25px;
+    background-color: black;
+    outline: none;
+    border: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233, 0 0 .6rem #02e233;
+    border-radius: 30px;
+    color:#02e233;
+    padding: 3px;
+}
+
+#insert-name input{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+#save-info{
+    margin-top: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: black;
+    outline: none;
+    border: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233, 0 0 .6rem #02e233;
+    border-radius: 30px;
+    color:#02e233;
+    padding: 6px 16px;
+    cursor: pointer;
+}
+
+#room-info{
+    width: 70%;
+    height: 150px;
+    margin-top: 25px;
+    background-color: black;
+    outline: none;
+    border: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233, 0 0 .6rem #02e233;
+    border-radius: 30px;
+    color:#02e233;
+}
+
+#access-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+    background-color: black;
+    outline: none;
+    border-bottom: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233, 0 0 .6rem #02e233;
+    border-radius: 30px 30px 0 0;
+    color:#02e233;
+}
+
+#player1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 59px;
+    background-color: black;
+    outline: none;
+    border-bottom: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233, 0 0 .6rem #02e233;
+    color:white;
+    -webkit-text-stroke-color: #02e233;
+    -webkit-text-stroke-width: .2px;
+}
+
+#player1-picture{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    outline: none;
+    border: 0.2rem solid #02e233;
+
+    border-radius: 10px;
+}
+
+#player1-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Isso garante que a imagem cubra completamente a div, mantendo sua proporção */
+}
+
+#player1-name{
+    margin-left: 10px;
+}
+
+#waiting-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 59px;
+    background-color: black;
+    outline: none;
+    border-bottom: 0.2rem solid #02e233;
+    box-shadow: 0 0 .2rem #02e233,
+    0 0 .2rem #02e233, 0 0 .6rem #02e233;
+    color:#02e233;
+    border-radius: 0 0 30px 30px;
+}
+
+#action-buttons{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#create-room{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-right: 25px;
+    background-color: black;
+    outline: none;
+    font-size: 16px;
+    border: 0.2rem solid #015a14;
+    color:#015a14;
+    border-radius: 30px;
+    padding: 6px 16px;
+    cursor:not-allowed;
+}
+
+#leave{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-right: 25px;
+    background-color: black;
+    outline: none;
+    font-size: 16px;
+    border: 0.2rem solid #e20202;
+    box-shadow: 0 0 .2rem #e20202,
+    0 0 .2rem #e20202,
+    0 0 1rem #e20202;
+    color:#e20202;
+    border-radius: 30px;
+    padding: 6px 16px;
+    cursor:pointer;
 }
