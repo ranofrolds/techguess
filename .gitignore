@@ -32,3 +32,6 @@ electron-out/
 
 # Dependências locais do npm
 npm-debug.log
+
+node_modules/electron/dist/electron.exe
+
